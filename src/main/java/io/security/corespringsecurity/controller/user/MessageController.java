@@ -3,14 +3,13 @@ package io.security.corespringsecurity.controller.user;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
-public class UserController {
+public class MessageController {
 	
-	@GetMapping(value="/mypage")
-	public String myPage() throws Exception {
+	@GetMapping(value="/messages")
+	public String mypage() throws Exception {
 
-		return "user/mypage";
+		return "user/messages";
 	}
 }
