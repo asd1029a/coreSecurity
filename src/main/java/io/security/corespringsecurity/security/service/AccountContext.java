@@ -3,7 +3,6 @@ package io.security.corespringsecurity.security.service;
 import io.security.corespringsecurity.domain.Account;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
-import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 
