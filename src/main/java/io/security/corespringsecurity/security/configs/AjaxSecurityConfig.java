@@ -65,7 +65,9 @@ public class AjaxSecurityConfig extends WebSecurityConfigurerAdapter {
 
     }
 
+
     private AccessDeniedHandler ajaxAccessDeniedHandler() {
+
         return new AjaxAccessDeniedHandler();
     }
 
